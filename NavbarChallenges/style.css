@@ -80,6 +80,7 @@ body{
 
 #nav-2 ul li:hover {
     background:#f9be82;
+    cursor: pointer;
 } 
 #nav-2 ul li ul{
     display: none;
@@ -90,7 +91,11 @@ body{
     flex-direction: column;
     font-size:80%;
 }
-
+#nav-2 ul li:active ul{
+    display: block;
+    flex-direction: column;
+    font-size:80%;
+}
 /* <----- nav 3 -----> */
 
 #nav-3{
