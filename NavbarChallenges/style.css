@@ -90,3 +90,79 @@ body{
     flex-direction: column;
     font-size:80%;
 }
+
+/* <----- nav 3 -----> */
+
+#nav-3{
+    width: 100%;
+    margin: 150px 20px;
+}
+
+.wrap{
+    position: relative;
+}
+.ribbon {
+    width: 60%;
+    height: 50px;
+    margin: 100px auto 0px;
+    position: relative;
+    background: #3D79D0;
+}
+.nav{
+    position:relative;
+    margin-left: 0px;
+    margin-top: -50px;
+    text-align: center;
+}
+.nav a{
+    margin-top: 3px;
+    padding: 10px;
+    padding-top: 15px;
+    width:50px;
+    display: inline-block;
+    font-size: 12px;
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    justify-content: center;
+}
+.nav a:hover{
+    background: orange;
+    border-radius: 20px;
+}
+.ribbon i {
+    position: absolute;
+}
+ 
+.ribbon i:first-child, .ribbon i:nth-child(2) {
+    position: absolute;
+    left: -20px;
+    bottom: -20px;
+    z-index: -1;
+    border: 20px solid transparent;
+    border-right-color: #04222d;
+}
+ 
+.ribbon i:nth-child(2) {
+    left: auto;
+    right: -20px;
+    border-right-color: transparent;
+    border-left-color: #04222d;
+}
+ 
+.ribbon i:nth-child(3), .ribbon i:last-child {
+    width: 20px;
+    bottom: -20px;
+    left: -60px;
+    z-index: -2;
+    border: 30px solid #1D53C0;
+    border-left-color: transparent;
+}
+.ribbon i:last-child {
+    bottom: -20px;
+    left: auto;
+    right: -60px;
+    border: 30px solid #1D53C0;
+    border-right-color: transparent;  
+}
