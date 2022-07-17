@@ -12,6 +12,7 @@ body{
     justify-content: center;
     flex-direction: column;
     font-family: 'Ubuntu', sans-serif;
+    width: 100%;
 }
 
 nav{
