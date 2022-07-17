@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-nav-top{
+    background: linear-gradient(to bottom, #65bdec, #478bf7);
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-nav{
+    display: contents;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#nav-1{
+    margin-top: 50px;
+    margin: 50px 0px;
+    background-color: #212429;
+    padding: 15px 50px;
+    border-radius: 10px;
+    display: flex;
+}
+#nav-1 .nav-item{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 20px;
+    display: flex;
+}
+#nav-1 .nav-item:hover{
+    color: rgb(0, 255, 170);
+}
+
+#nav-2 {
+    list-style:none inside;
+    margin:0;
+    padding:0;
+    text-align:center;
+    display: flex;
+}
+#nav-2 li {
+    display:block;
+    position:relative;
+    float:left;
+    background: #595b59;
+}
+#nav-2 li a {
+    display:block;
+    padding:0;
+    text-decoration:none;
+    width:100px;
+    line-height:50px; 
+    color:#ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+#nav-2 li:hover {
+    background:#f9be82;
+} 
+#nav-2 li li{
+    display: none;
+    font-size:80%;
+}
+
+#nav-2 li li:hover{
+    display: flex;
+    font-size:80%;
+}
+
+#nav li:hover {background:#003f20;} /* highlights current hovered list item and the parent list items when hovering over sub menues */
+#nav ul {
+position:absolute;
+padding:0;
+left:0;
+
+display:none; /* hides sublists */
+}
+#nav li:hover ul ul {display:none;} /* hides sub-sublists */
+#nav li:hover ul {display:block;} /* shows sublist on hover */
+#nav li li:hover ul {
+display:block; /* shows sub-sublist on hover */
+margin-left:200px; /* this should be the same width as the parent list item */
+margin-top:-35px; /* aligns top of sub menu with top of list item */
+}
