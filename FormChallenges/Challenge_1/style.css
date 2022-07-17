@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+}
+
+nav{
+    background: linear-gradient(to bottom, #65bdec, #478bf7);
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    margin-top: -900px;
+}
+
+.home-nav{
+    display: contents;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* <---- form css--> */
+
+html{
+    background-color: rgb(0, 0, 0);
+}
+
+.form-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 20px;
+    background-color: #0c0f36;
+    width: 275px;
+    height: 450px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+input{
+    border-radius: 5px;
+    height: 40px;
+    width: 260px;
+    background-color: #565870;
+    color: aliceblue;
+    border: none;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+::placeholder {
+    padding-left: 10px;
+    color: #b6b1b1;
+    opacity: 1;
+  }
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.subtitle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight:600;
+}
+.submit{
+    margin-top: 50px;
+    border-radius: 5px;
+    height: 40px;
+    width: 270px;
+    background-color: #0084ff;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: #0044ff;
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
+}
+.input:hover{
+    background-color: #747899;
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
+}
