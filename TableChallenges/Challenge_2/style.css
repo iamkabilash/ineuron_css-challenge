@@ -1,1 +1,72 @@
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  font-family: Indie Flower;
+  margin:0;
+  padding: 0;
+  outline: 0;
+}
+.nav-bar-fixed{
+    position: fixed;
+    z-index: 10;
+    top:0px;
+    background: linear-gradient(to bottom, #65bdec, #478bf7);
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-nav{
+    display: contents;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home-nav h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* <---- table css--> */
+
+.flex-center{
+    display:block;
+    margin-top: 100px;
+    margin-left: 15px;
+}
+hr{
+    height: 4px ;
+    background-color: #272626;
+}
+tr{
+    background-color: #82f6d9;
+}
+table caption {
+    transform: translateY(500px);
+    font-size: 20px;
+}
+td{
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    padding: 50px 20px;
+}
+tr{
+    text-align: center;
+    font-size: 25px;
+    color: #ff0000;
+    line-height: 50px;
+}
+table .small{
+    text-align: center;
+    font-size: 25px;
+    color: #ff0000;
+    line-height: 0px;
+}
+tr .blue-cell{
+    background-color: #68bcf4;
+}
+td:hover{
+    background-color: #68bcf4;
+}
