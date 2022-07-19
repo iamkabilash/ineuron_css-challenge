@@ -5,16 +5,16 @@
     padding: 0;
     outline: 0;
 }
-
-nav{
+.nav-bar-fixed{
+    position: fixed;
+    z-index: 10;
+    top:0px;
     background: linear-gradient(to bottom, #65bdec, #478bf7);
     width: 100%;
     padding: 20px 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: fixed;
-    margin-top: -900px;
 }
 
 .home-nav{
