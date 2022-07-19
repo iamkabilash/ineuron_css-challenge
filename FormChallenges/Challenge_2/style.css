@@ -1,1 +1,87 @@
 @import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+}
+.nav-bar-fixed{
+    position: fixed;
+    z-index: 10;
+    top:0px;
+    background: linear-gradient(to bottom, #65bdec, #478bf7);
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-nav{
+    display: contents;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* <---- form css--> */
+
+html{
+    height: 100%;
+    background: linear-gradient(45deg, #94f47c, #2396ee);
+
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25vh;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 350px;
+    height: 450px;
+}
+
+#form-heading{
+    padding: 10px 10px;
+    margin-top: -30px;
+    font-family: Sansita Swashed;
+    border-left: 5px solid #478bf7;
+    margin-left: 40px;
+    letter-spacing: 3px;
+}
+
+.inputbox{
+    padding-top: 50px;
+    margin-left: 40px;
+}
+
+input{
+    height: 35px;
+    width: 270px;
+    border-color: #000;
+    border-style: double;
+    border-radius: 8px;
+}
+
+::placeholder{
+    padding-left: 15px;
+    color: #000;
+}
+
+#btn-submit{
+    height: 35px;
+    width: 150px;
+    border-style: none;
+    color: #fff;
+    background-color: #2396ee;
+    font-size: 17px;
+}
